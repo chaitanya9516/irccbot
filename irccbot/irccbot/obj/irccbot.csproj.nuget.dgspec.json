@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "J:\\projects of vs\\ircc\\irccbot\\irccbot\\irccbot.csproj": {}
+  },
+  "projects": {
+    "J:\\projects of vs\\ircc\\irccbot\\irccbot\\irccbot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\projects of vs\\ircc\\irccbot\\irccbot\\irccbot.csproj",
+        "projectName": "irccbot",
+        "projectPath": "J:\\projects of vs\\ircc\\irccbot\\irccbot\\irccbot.csproj",
+        "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
+        "outputPath": "J:\\projects of vs\\ircc\\irccbot\\irccbot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "NUnitTestAdapter": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[88.0.4324.9600, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
