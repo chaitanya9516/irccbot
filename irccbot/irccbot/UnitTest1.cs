@@ -35,7 +35,7 @@ namespace irccbot
             ele.Click();
             Thread.Sleep(5000);
             IWebElement ele2 = driver.FindElement(By.Name("token1"));            
-            ele2.SendKeys("Chaitanyacege");
+            ele2.SendKeys("Chaitanyacegep");
             Thread.Sleep(2000);
             IWebElement ele3 = driver.FindElement(By.Name("token2"));
             ele3.SendKeys("Access123*");
