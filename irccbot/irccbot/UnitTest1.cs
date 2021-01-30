@@ -25,7 +25,7 @@ namespace irccbot
         [Test]
         public void Test1()
         {
-            //Assert.Pass();
+            
             driver.Navigate().GoToUrl("https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html");
             //Maximize the browser window  
             driver.Manage().Window.Maximize();
