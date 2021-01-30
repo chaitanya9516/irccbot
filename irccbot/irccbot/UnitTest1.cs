@@ -25,10 +25,11 @@ namespace irccbot
         [Test]
         public void Test1()
         {
-            
+            //goto provided url
             driver.Navigate().GoToUrl("https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html");
             //Maximize the browser window  
             driver.Manage().Window.Maximize();
+            //wait for 1min
             Thread.Sleep(10000);
             IWebElement ele = driver.FindElement(By.XPath("/html/body/main/div[1]/div[7]/div[1]/div[1]/section/div/p[2]/a"));
             ele.Click();
