@@ -31,6 +31,7 @@ namespace irccbot
             driver.Manage().Window.Maximize();
             //wait for 1min
             Thread.Sleep(10000);
+            //capturing the element to variable
             IWebElement ele = driver.FindElement(By.XPath("/html/body/main/div[1]/div[7]/div[1]/div[1]/section/div/p[2]/a"));
             ele.Click();
             Thread.Sleep(5000);
